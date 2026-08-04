@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regional Housing Intelligence</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="dashboard" id="dashboard">
+      <aside class="sidebar" id="sidebar">
+        <button
+          class="sidebar-toggle"
+          id="sidebarToggle"
+          type="button"
+          aria-label="Collapse sidebar"
+          aria-controls="sidebar"
+          aria-expanded="true"
+          title="Collapse sidebar"
+        >
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <a class="brand" href="#" aria-label="Dashboard home">
+          <div class="brand-icon">
+            <i class="fa-solid fa-house-chimney"></i>
+          </div>
+
+          <div class="brand-name">
+            <span>Social Media</span>
+            <span>Regional Housing</span>
+            <span>Intelligence</span>
+          </div>
+        </a>
+
+        <nav class="sidebar-nav" aria-label="Dashboard navigation">
+          <a class="sidebar-link active" href="#" title="Overall View">
+            <i class="fa-solid fa-border-all"></i>
+            <span>Overall View</span>
+          </a>
+
+          <a class="sidebar-link" href="#" title="Suburb View">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Suburb View</span>
+          </a>
+        </nav>
+
+        <div class="city-art" aria-hidden="true">
+          <div class="building building-one"></div>
+          <div class="building building-two"></div>
+          <div class="building building-three"></div>
+          <div class="house house-one"></div>
+          <div class="house house-two"></div>
+        </div>
+
+        <a class="info-card" href="#">
+          <i class="fa-solid fa-chart-line"></i>
+          <div>
+            <strong>Stay informed.</strong>
+            <p>Smarter decisions start with better insights.</p>
+          </div>
+        </a>
+      </aside>
+
+      <main class="main-content">
+        <header class="page-header">
+          <div>
+            <a class="page-title-link" href="#">
+              <h1>Overall View</h1>
+            </a>
+            <p>
+              Discover how suburbs are being talked about across social media.
+            </p>
+          </div>
+
+          <div class="header-actions">
+            <button class="date-button" type="button">
+              <i class="fa-regular fa-calendar"></i>
+              <span>May 30, 2025</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <button class="share-button" type="button">
+              <i class="fa-solid fa-share-nodes"></i>
+              <span>Share Report</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="card topic-section">
+          <div class="section-title">
+            <h2>Topic Selection</h2>
+            <span>(Filter insights by topic)</span>
+          </div>
+
+          <div class="topic-list">
+            <button class="topic-button selected" type="button">
+              <i class="fa-solid fa-border-all"></i>
+              <span>All Topics</span>
+            </button>
+
+            <button class="topic-button" type="button">
+              <i class="fa-solid fa-seedling green-icon"></i>
+              <span>Lifestyle &amp;<br />Amenities</span>
+            </button>
+
+            <button class="topic-button" type="button">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span>Crime &amp;<br />Safety</span>
+            </button>
+
+            <button class="topic-button" type="button">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Educational &amp;<br />Employment</span>
+            </button>
+
+            <button class="topic-button" type="button">
+              <i class="fa-solid fa-dollar-sign"></i>
+              <span>Affordability</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="card ranking-section">
+          <div class="ranking-heading">
+            <h2>Suburb Ranking</h2>
+
+            <div class="score-note">
+              <i class="fa-regular fa-circle-question"></i>
+              <span>
+                Sentiment Score ranges from -1 (Very Negative)<br />
+                to +1 (Very Positive)
+              </span>
+            </div>
+          </div>
+
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Suburb</th>
+                  <th>
+                    Sentiment Score
+                    <i class="fa-solid fa-sort"></i>
+                  </th>
+                  <th>Sentiment</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr class="empty-row">
+                  <td colspan="5"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <footer class="ranking-footer">
+            <p>
+              <i class="fa-regular fa-lightbulb"></i>
+              Insights are derived from real-time social media data and advanced
+              sentiment analysis.
+            </p>
+
+            <a href="#">
+              Learn more about our methodology
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </footer>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
