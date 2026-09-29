@@ -1,0 +1,16 @@
+Melbourne suburb Reddit labelling notes
+
+The full CSV is weak-labelled rather than human-labelled. It keeps the original schema and fills: sentiment, sentiment_score, aspect, aspect_sentiment, and needs_review.
+
+Aspect taxonomy used (from the project proposal):
+- Lifestyle Amenities
+- Education & Employment
+- Crime & Safety
+- Affordability
+- General (no clear topic evidence)
+
+Aspect labels use keyword/context rules, with the post title used as light context for comments. Sentiment uses the polarity lexicon bundled with TextBlob plus domain corrections for suburb/housing/safety language. Scores range from -1 to +1; >= 0.05 is Positive, <= -0.05 is Negative, otherwise Neutral.
+
+needs_review=True is used for ambiguous topic matches, mixed/near-boundary sentiment, very short text, or existing cleaning flags.
+
+The training subset contains up to 10 high-confidence rows per suburb x aspect x sentiment cell (maximum 1,500 rows). It is designed for manual validation before BERT training and should not be treated as gold-standard labels until reviewed.
