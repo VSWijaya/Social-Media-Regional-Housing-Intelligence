@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // SETTINGS
   // =====================================================
 
-  const DATA_FILE = "mock_suburb_data.json";
+  const DATA_FILE = "suburb_data.json";
 
   // ABS Census context (made by abs_to_json.py)
   const CONTEXT_FILE = "abs_suburb_context.json";
