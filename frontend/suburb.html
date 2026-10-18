@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suburb View - Regional Housing Intelligence</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body data-page="suburb">
+    <div class="dashboard" id="dashboard">
+      <aside class="sidebar" id="sidebar">
+        <button
+          class="sidebar-toggle"
+          id="sidebarToggle"
+          type="button"
+          aria-label="Collapse sidebar"
+          title="Collapse sidebar"
+        >
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <a class="brand" href="index.html">
+          <div class="brand-icon">
+            <i class="fa-solid fa-house-chimney"></i>
+          </div>
+
+          <div class="brand-name">
+            <span>Social Media</span>
+            <span>Regional Housing</span>
+            <span>Intelligence</span>
+          </div>
+        </a>
+
+        <nav class="sidebar-nav">
+          <a class="sidebar-link" href="index.html" title="Overall View">
+            <i class="fa-solid fa-border-all"></i>
+            <span>Overall View</span>
+          </a>
+
+          <a class="sidebar-link active" href="suburb.html" title="Suburb View">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Suburb View</span>
+          </a>
+        </nav>
+
+        <div class="city-art" aria-hidden="true">
+          <div class="building building-one"></div>
+          <div class="building building-two"></div>
+          <div class="building building-three"></div>
+          <div class="house house-one"></div>
+          <div class="house house-two"></div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-chart-line"></i>
+          <div>
+            <strong>Stay informed.</strong>
+            <p>Smarter decisions start with better insights.</p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-content suburb-page">
+        <header class="suburb-page-header">
+          <div>
+            <a class="return-link" href="index.html">
+              <i class="fa-solid fa-arrow-left"></i>
+              Return to Overall View
+            </a>
+
+            <h1 class="page-title">Suburb View</h1>
+            <p>
+              Compare sentiment, strengths and concerns between two suburbs.
+            </p>
+          </div>
+
+          <div class="updated-badge">
+            <i class="fa-regular fa-clock"></i>
+            <span id="dataUpdated">Updated —</span>
+          </div>
+        </header>
+
+        <section class="comparison-controls card">
+          <div class="comparison-control">
+            <label for="leftSuburbSelect">First suburb</label>
+            <select id="leftSuburbSelect"></select>
+          </div>
+
+          <button
+            class="compare-icon"
+            id="swapSuburbs"
+            type="button"
+            title="Swap suburbs"
+            aria-label="Swap suburbs"
+          >
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          </button>
+
+          <div class="comparison-control">
+            <label for="rightSuburbSelect">Second suburb</label>
+            <select id="rightSuburbSelect"></select>
+          </div>
+        </section>
+
+        <section class="suburb-comparison">
+          <article class="suburb-detail-card" id="leftSuburbCard">
+            <div class="loading-card">Loading suburb data...</div>
+          </article>
+
+          <article class="suburb-detail-card" id="rightSuburbCard">
+            <div class="loading-card">Loading suburb data...</div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

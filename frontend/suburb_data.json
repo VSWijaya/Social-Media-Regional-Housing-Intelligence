@@ -1,0 +1,654 @@
+{
+  "last_updated": "2026-10-18",
+  "suburb_summary": [
+    {
+      "suburb": "Collingwood",
+      "overall_sentiment_score": 0.07,
+      "sentiment_label": "Positive",
+      "post_count": 2,
+      "comment_count": 120,
+      "sentiment_breakdown": {
+        "positive_pct": 39,
+        "neutral_pct": 27,
+        "negative_pct": 34
+      },
+      "top_strengths": [
+        {
+          "topic": "Affordability",
+          "average_score": 0.19,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["prices", "one", "cbd"]
+        }
+      ],
+      "top_concerns": [
+        {
+          "topic": "Education & Employment",
+          "average_score": -0.16,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["know", "well", "thanks"]
+        },
+        {
+          "topic": "Crime & Safety",
+          "average_score": -0.16,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["know", "well", "thanks"]
+        }
+      ],
+      "topics": {
+        "Lifestyle & Amenities": {
+          "topic": "Lifestyle & Amenities",
+          "average_score": -0.02,
+          "label": "Neutral",
+          "post_count": 69,
+          "keywords": ["well", "get", "better"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": -0.16,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["know", "well", "thanks"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": -0.16,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["know", "well", "thanks"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": 0.19,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["prices", "one", "cbd"]
+        }
+      }
+    },
+    {
+      "suburb": "Oakleigh",
+      "overall_sentiment_score": -0.09,
+      "sentiment_label": "Negative",
+      "post_count": 8,
+      "comment_count": 114,
+      "sentiment_breakdown": {
+        "positive_pct": 25,
+        "neutral_pct": 36,
+        "negative_pct": 39
+      },
+      "top_strengths": [],
+      "top_concerns": [
+        {
+          "topic": "Lifestyle & Amenities",
+          "average_score": -0.11,
+          "label": "Negative",
+          "post_count": 69,
+          "keywords": ["like", "get", "station"]
+        },
+        {
+          "topic": "Education & Employment",
+          "average_score": -0.07,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["area", "safe", "kids"]
+        },
+        {
+          "topic": "Crime & Safety",
+          "average_score": -0.07,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["area", "safe", "kids"]
+        },
+        {
+          "topic": "Affordability",
+          "average_score": -0.24,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["price", "actually", "like"]
+        }
+      ],
+      "topics": {
+        "Lifestyle & Amenities": {
+          "topic": "Lifestyle & Amenities",
+          "average_score": -0.11,
+          "label": "Negative",
+          "post_count": 69,
+          "keywords": ["like", "get", "station"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": -0.07,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["area", "safe", "kids"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": -0.07,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["area", "safe", "kids"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": -0.24,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["price", "actually", "like"]
+        }
+      }
+    },
+    {
+      "suburb": "Nunawading",
+      "overall_sentiment_score": 0.13,
+      "sentiment_label": "Positive",
+      "post_count": 1,
+      "comment_count": 67,
+      "sentiment_breakdown": {
+        "positive_pct": 40,
+        "neutral_pct": 32,
+        "negative_pct": 28
+      },
+      "top_strengths": [
+        {
+          "topic": "Lifestyle & Amenities",
+          "average_score": 0.15,
+          "label": "Positive",
+          "post_count": 27,
+          "keywords": ["like", "good", "train"]
+        },
+        {
+          "topic": "Education & Employment",
+          "average_score": 0.51,
+          "label": "Positive",
+          "post_count": 4,
+          "keywords": ["probably", "great", "educators"]
+        },
+        {
+          "topic": "Crime & Safety",
+          "average_score": 0.51,
+          "label": "Positive",
+          "post_count": 4,
+          "keywords": ["probably", "great", "educators"]
+        },
+        {
+          "topic": "Affordability",
+          "average_score": 0.5,
+          "label": "Positive",
+          "post_count": 11,
+          "keywords": ["cheap", "leasing", "agent"]
+        }
+      ],
+      "top_concerns": [],
+      "topics": {
+        "Lifestyle & Amenities": {
+          "topic": "Lifestyle & Amenities",
+          "average_score": 0.15,
+          "label": "Positive",
+          "post_count": 27,
+          "keywords": ["like", "good", "train"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": 0.51,
+          "label": "Positive",
+          "post_count": 4,
+          "keywords": ["probably", "great", "educators"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": 0.51,
+          "label": "Positive",
+          "post_count": 4,
+          "keywords": ["probably", "great", "educators"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": 0.5,
+          "label": "Positive",
+          "post_count": 11,
+          "keywords": ["cheap", "leasing", "agent"]
+        }
+      }
+    },
+    {
+      "suburb": "Eaglemont",
+      "overall_sentiment_score": 0.03,
+      "sentiment_label": "Neutral",
+      "post_count": 1,
+      "comment_count": 55,
+      "sentiment_breakdown": {
+        "positive_pct": 36,
+        "neutral_pct": 29,
+        "negative_pct": 36
+      },
+      "top_strengths": [
+        {
+          "topic": "Affordability",
+          "average_score": 0.25,
+          "label": "Positive",
+          "post_count": 3,
+          "keywords": ["looking", "areas", "bedroom"]
+        }
+      ],
+      "top_concerns": [
+        {
+          "topic": "Lifestyle & Amenities",
+          "average_score": -0.12,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["train", "station", "one"]
+        }
+      ],
+      "topics": {
+        "Lifestyle & Amenities": {
+          "topic": "Lifestyle & Amenities",
+          "average_score": -0.12,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["train", "station", "one"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": 0.0,
+          "label": "Neutral",
+          "post_count": 0,
+          "keywords": ["education & employment"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": 0.0,
+          "label": "Neutral",
+          "post_count": 0,
+          "keywords": ["crime & safety"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": 0.25,
+          "label": "Positive",
+          "post_count": 3,
+          "keywords": ["looking", "areas", "bedroom"]
+        }
+      }
+    },
+    {
+      "suburb": "Richmond",
+      "overall_sentiment_score": -0.01,
+      "sentiment_label": "Neutral",
+      "post_count": 4,
+      "comment_count": 118,
+      "sentiment_breakdown": {
+        "positive_pct": 32,
+        "neutral_pct": 34,
+        "negative_pct": 34
+      },
+      "top_strengths": [],
+      "top_concerns": [
+        {
+          "topic": "Education & Employment",
+          "average_score": -0.19,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["would", "office", "like"]
+        },
+        {
+          "topic": "Crime & Safety",
+          "average_score": -0.19,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["would", "office", "like"]
+        }
+      ],
+      "topics": {
+        "Lifestyle & Amenities": {
+          "topic": "Lifestyle & Amenities",
+          "average_score": -0.05,
+          "label": "Neutral",
+          "post_count": 69,
+          "keywords": ["work", "like", "get"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": -0.19,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["would", "office", "like"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": -0.19,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["would", "office", "like"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": -0.03,
+          "label": "Neutral",
+          "post_count": 23,
+          "keywords": ["like", "one", "get"]
+        }
+      }
+    },
+    {
+      "suburb": "Carlton",
+      "overall_sentiment_score": -0.06,
+      "sentiment_label": "Negative",
+      "post_count": 2,
+      "comment_count": 120,
+      "sentiment_breakdown": {
+        "positive_pct": 36,
+        "neutral_pct": 20,
+        "negative_pct": 43
+      },
+      "top_strengths": [],
+      "top_concerns": [
+        {
+          "topic": "Education & Employment",
+          "average_score": -0.09,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["school", "people", "like"]
+        },
+        {
+          "topic": "Crime & Safety",
+          "average_score": -0.09,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["school", "people", "like"]
+        },
+        {
+          "topic": "Affordability",
+          "average_score": -0.16,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["property", "need", "think"]
+        }
+      ],
+      "topics": {
+        "Lifestyle & Amenities": {
+          "topic": "Lifestyle & Amenities",
+          "average_score": 0.01,
+          "label": "Neutral",
+          "post_count": 69,
+          "keywords": ["people", "school", "like"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": -0.09,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["school", "people", "like"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": -0.09,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["school", "people", "like"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": -0.16,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["property", "need", "think"]
+        }
+      }
+    },
+    {
+      "suburb": "Vermont",
+      "overall_sentiment_score": 0.05,
+      "sentiment_label": "Positive",
+      "post_count": 5,
+      "comment_count": 94,
+      "sentiment_breakdown": {
+        "positive_pct": 38,
+        "neutral_pct": 27,
+        "negative_pct": 34
+      },
+      "top_strengths": [
+        {
+          "topic": "Affordability",
+          "average_score": 0.12,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["get", "yeah", "property"]
+        }
+      ],
+      "top_concerns": [
+        {
+          "topic": "Education & Employment",
+          "average_score": -0.11,
+          "label": "Negative",
+          "post_count": 27,
+          "keywords": ["police", "school", "crime"]
+        },
+        {
+          "topic": "Crime & Safety",
+          "average_score": -0.11,
+          "label": "Negative",
+          "post_count": 27,
+          "keywords": ["police", "school", "crime"]
+        }
+      ],
+      "topics": {
+        "Lifestyle & Amenities": {
+          "topic": "Lifestyle & Amenities",
+          "average_score": 0.03,
+          "label": "Neutral",
+          "post_count": 46,
+          "keywords": ["school", "police", "pretty"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": -0.11,
+          "label": "Negative",
+          "post_count": 27,
+          "keywords": ["police", "school", "crime"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": -0.11,
+          "label": "Negative",
+          "post_count": 27,
+          "keywords": ["police", "school", "crime"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": 0.12,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["get", "yeah", "property"]
+        }
+      }
+    },
+    {
+      "suburb": "Dandenong",
+      "overall_sentiment_score": 0.06,
+      "sentiment_label": "Positive",
+      "post_count": 4,
+      "comment_count": 118,
+      "sentiment_breakdown": {
+        "positive_pct": 35,
+        "neutral_pct": 30,
+        "negative_pct": 35
+      },
+      "top_strengths": [
+        {
+          "topic": "Affordability",
+          "average_score": 0.26,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["expensive", "want", "area"]
+        }
+      ],
+      "top_concerns": [
+        {
+          "topic": "Education & Employment",
+          "average_score": -0.11,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["job", "get", "people"]
+        },
+        {
+          "topic": "Crime & Safety",
+          "average_score": -0.11,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["job", "get", "people"]
+        }
+      ],
+      "topics": {
+        "Lifestyle & Amenities": {
+          "topic": "Lifestyle & Amenities",
+          "average_score": -0.03,
+          "label": "Neutral",
+          "post_count": 69,
+          "keywords": ["get", "people", "job"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": -0.11,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["job", "get", "people"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": -0.11,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["job", "get", "people"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": 0.26,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["expensive", "want", "area"]
+        }
+      }
+    },
+    {
+      "suburb": "Officer",
+      "overall_sentiment_score": -0.18,
+      "sentiment_label": "Negative",
+      "post_count": 1,
+      "comment_count": 121,
+      "sentiment_breakdown": {
+        "positive_pct": 25,
+        "neutral_pct": 28,
+        "negative_pct": 47
+      },
+      "top_strengths": [],
+      "top_concerns": [
+        {
+          "topic": "Lifestyle & Amenities",
+          "average_score": -0.22,
+          "label": "Negative",
+          "post_count": 69,
+          "keywords": ["get", "back", "people"]
+        },
+        {
+          "topic": "Education & Employment",
+          "average_score": -0.22,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["job", "people", "get"]
+        },
+        {
+          "topic": "Crime & Safety",
+          "average_score": -0.22,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["job", "people", "get"]
+        },
+        {
+          "topic": "Affordability",
+          "average_score": -0.19,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["need", "get", "prices"]
+        }
+      ],
+      "topics": {
+        "Lifestyle & Amenities": {
+          "topic": "Lifestyle & Amenities",
+          "average_score": -0.22,
+          "label": "Negative",
+          "post_count": 69,
+          "keywords": ["get", "back", "people"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": -0.22,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["job", "people", "get"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": -0.22,
+          "label": "Negative",
+          "post_count": 46,
+          "keywords": ["job", "people", "get"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": -0.19,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["need", "get", "prices"]
+        }
+      }
+    },
+    {
+      "suburb": "Clayton",
+      "overall_sentiment_score": 0.01,
+      "sentiment_label": "Neutral",
+      "post_count": 5,
+      "comment_count": 117,
+      "sentiment_breakdown": {
+        "positive_pct": 33,
+        "neutral_pct": 31,
+        "negative_pct": 36
+      },
+      "top_strengths": [],
+      "top_concerns": [],
+      "topics": {
+        "Lifestyle & Amenities": {
+          "topic": "Lifestyle & Amenities",
+          "average_score": -0.03,
+          "label": "Neutral",
+          "post_count": 69,
+          "keywords": ["probably", "get", "police"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": -0.02,
+          "label": "Neutral",
+          "post_count": 46,
+          "keywords": ["probably", "put", "police"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": -0.02,
+          "label": "Neutral",
+          "post_count": 46,
+          "keywords": ["probably", "put", "police"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": 0.04,
+          "label": "Neutral",
+          "post_count": 23,
+          "keywords": ["would", "going", "like"]
+        }
+      }
+    }
+  ]
+}
