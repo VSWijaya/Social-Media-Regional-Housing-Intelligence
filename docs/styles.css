@@ -623,17 +623,43 @@ tbody td {
   color: var(--orange);
 }
 
+/* Centre-zero bar: the middle line marks 0.
+   Negative scores extend left, positive scores extend right. */
 .score-track {
+  position: relative;
   width: 140px;
   height: 7px;
-  overflow: hidden;
   border-radius: 999px;
   background: #edf1f6;
 }
 
+/* Middle (zero) marker */
+.score-track::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: 50%;
+  width: 2px;
+  border-radius: 1px;
+  background: #9aa6bf;
+  transform: translateX(-50%);
+}
+
 .score-fill {
-  height: 100%;
-  border-radius: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.score-fill.right {
+  left: 50%;
+  border-radius: 0 999px 999px 0;
+}
+
+.score-fill.left {
+  right: 50%;
+  border-radius: 999px 0 0 999px;
 }
 
 .score-fill.positive {

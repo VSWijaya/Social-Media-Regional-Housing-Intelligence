@@ -306,7 +306,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (error) {
       console.error("Error loading JSON:", error);
 
-      showDataError();
+      showDataError(error);
     }
   }
 
@@ -369,46 +369,37 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  function showDataError() {
+  // Shows a helpful message when suburb_data.json cannot be loaded.
+  // Opening the HTML file directly (file://) blocks fetch(), so that
+  // case gets its own instruction.
+  function showDataError(error) {
+    const openedAsFile = window.location.protocol === "file:";
+
+    const reason = openedAsFile
+      ? "The page was opened directly from your computer, which blocks the data file from loading. Open it through a local server instead (for example, VS Code Live Server)."
+      : `Make sure ${DATA_FILE} is in the same folder as index.html and is valid JSON.`;
+
+    const detail = error && error.message ? error.message : "";
+
+    const messageHTML = `
+      <strong>Could not load ${escapeHTML(DATA_FILE)}.</strong>
+      <br><br>
+      ${escapeHTML(reason)}
+      ${detail ? `<br><br><small>${escapeHTML(detail)}</small>` : ""}
+    `;
+
     const tableBody = document.getElementById("suburbTableBody");
 
     if (tableBody) {
       tableBody.innerHTML = `
-
         <tr>
-
-          <td
-            colspan="5"
-            class="loading-cell"
-          >
-
-            Could not load
-            mock_suburb_data.json.
-
-            <br><br>
-
-            Please run the project
-            using VS Code Live Server.
-
-          </td>
-
+          <td colspan="5" class="loading-cell">${messageHTML}</td>
         </tr>
-
       `;
     }
 
     document.querySelectorAll(".loading-card").forEach((card) => {
-      card.innerHTML = `
-
-            Could not load
-            mock_suburb_data.json.
-
-            <br><br>
-
-            Please use
-            VS Code Live Server.
-
-          `;
+      card.innerHTML = `<div>${messageHTML}</div>`;
     });
   }
 
@@ -552,7 +543,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const sentimentType = labelClass(row.label);
 
-    const scoreWidth = Math.max(4, Math.round(Math.abs(row.score) * 100));
+    // Centre-zero bar: the middle line is 0, negative scores grow
+    // to the left and positive scores grow to the right.
+    // Each half of the track represents 0 to 1, so the width is
+    // |score| x 50% of the whole track.
+    const scoreWidth = Math.max(2, Math.round(Math.abs(row.score) * 50));
+
+    const scoreSide = row.score < 0 ? "left" : "right";
 
     return `
       <tr>
@@ -563,8 +560,11 @@ document.addEventListener("DOMContentLoaded", () => {
         <td>
           <div class="score-display">
             <span class="score-number ${scoreType}">${formatScore(row.score)}</span>
-            <div class="score-track">
-              <div class="score-fill ${scoreType}" data-width="${scoreWidth}"></div>
+            <div
+              class="score-track"
+              title="Centre line = 0. Left = negative, right = positive."
+            >
+              <div class="score-fill ${scoreType} ${scoreSide}" data-width="${scoreWidth}"></div>
             </div>
           </div>
         </td>
