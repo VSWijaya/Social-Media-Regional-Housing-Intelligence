@@ -1,255 +1,264 @@
 {
-  "last_updated": "2026-10-18",
+  "last_updated": "2026-10-19",
   "suburb_summary": [
     {
       "suburb": "Collingwood",
-      "overall_sentiment_score": 0.07,
+      "overall_sentiment_score": 0.1,
       "sentiment_label": "Positive",
       "post_count": 2,
       "comment_count": 120,
       "sentiment_breakdown": {
-        "positive_pct": 39,
-        "neutral_pct": 27,
-        "negative_pct": 34
+        "positive_pct": 42,
+        "neutral_pct": 26,
+        "negative_pct": 32
       },
       "top_strengths": [
         {
-          "topic": "Affordability",
-          "average_score": 0.19,
+          "topic": "Lifestyle & Amenities",
+          "average_score": 0.27,
           "label": "Positive",
           "post_count": 23,
-          "keywords": ["prices", "one", "cbd"]
+          "keywords": ["street", "bar", "trains"]
+        },
+        {
+          "topic": "Affordability",
+          "average_score": 0.29,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["prices", "cbd", "slums"]
         }
       ],
       "top_concerns": [
         {
           "topic": "Education & Employment",
-          "average_score": -0.16,
+          "average_score": -0.12,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["know", "well", "thanks"]
+          "post_count": 23,
+          "keywords": ["office", "every", "school"]
         },
         {
           "topic": "Crime & Safety",
-          "average_score": -0.16,
+          "average_score": -0.18,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["know", "well", "thanks"]
+          "post_count": 23,
+          "keywords": ["safe", "cops", "nothing"]
         }
       ],
       "topics": {
         "Lifestyle & Amenities": {
           "topic": "Lifestyle & Amenities",
-          "average_score": -0.02,
-          "label": "Neutral",
-          "post_count": 69,
-          "keywords": ["well", "get", "better"]
+          "average_score": 0.27,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["street", "bar", "trains"]
         },
         "Education & Employment": {
           "topic": "Education & Employment",
-          "average_score": -0.16,
+          "average_score": -0.12,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["know", "well", "thanks"]
+          "post_count": 23,
+          "keywords": ["office", "every", "school"]
         },
         "Crime & Safety": {
           "topic": "Crime & Safety",
-          "average_score": -0.16,
+          "average_score": -0.18,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["know", "well", "thanks"]
+          "post_count": 23,
+          "keywords": ["safe", "cops", "nothing"]
         },
         "Affordability": {
           "topic": "Affordability",
-          "average_score": 0.19,
+          "average_score": 0.29,
           "label": "Positive",
           "post_count": 23,
-          "keywords": ["prices", "one", "cbd"]
+          "keywords": ["prices", "cbd", "slums"]
         }
       }
     },
     {
       "suburb": "Oakleigh",
-      "overall_sentiment_score": -0.09,
-      "sentiment_label": "Negative",
+      "overall_sentiment_score": -0.05,
+      "sentiment_label": "Neutral",
       "post_count": 8,
       "comment_count": 114,
       "sentiment_breakdown": {
-        "positive_pct": 25,
-        "neutral_pct": 36,
-        "negative_pct": 39
+        "positive_pct": 28,
+        "neutral_pct": 37,
+        "negative_pct": 35
       },
-      "top_strengths": [],
+      "top_strengths": [
+        {
+          "topic": "Education & Employment",
+          "average_score": 0.21,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["job", "office", "school"]
+        }
+      ],
       "top_concerns": [
         {
           "topic": "Lifestyle & Amenities",
-          "average_score": -0.11,
+          "average_score": -0.14,
           "label": "Negative",
-          "post_count": 69,
-          "keywords": ["like", "get", "station"]
-        },
-        {
-          "topic": "Education & Employment",
-          "average_score": -0.07,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["area", "safe", "kids"]
+          "post_count": 23,
+          "keywords": ["station", "park", "street"]
         },
         {
           "topic": "Crime & Safety",
-          "average_score": -0.07,
+          "average_score": -0.21,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["area", "safe", "kids"]
+          "post_count": 23,
+          "keywords": ["police", "safe", "cops"]
         },
         {
           "topic": "Affordability",
-          "average_score": -0.24,
+          "average_score": -0.21,
           "label": "Negative",
           "post_count": 23,
-          "keywords": ["price", "actually", "like"]
+          "keywords": ["price", "work", "prices"]
         }
       ],
       "topics": {
         "Lifestyle & Amenities": {
           "topic": "Lifestyle & Amenities",
-          "average_score": -0.11,
+          "average_score": -0.14,
           "label": "Negative",
-          "post_count": 69,
-          "keywords": ["like", "get", "station"]
+          "post_count": 23,
+          "keywords": ["station", "park", "street"]
         },
         "Education & Employment": {
           "topic": "Education & Employment",
-          "average_score": -0.07,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["area", "safe", "kids"]
+          "average_score": 0.21,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["job", "office", "school"]
         },
         "Crime & Safety": {
           "topic": "Crime & Safety",
-          "average_score": -0.07,
+          "average_score": -0.21,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["area", "safe", "kids"]
+          "post_count": 23,
+          "keywords": ["police", "safe", "cops"]
         },
         "Affordability": {
           "topic": "Affordability",
-          "average_score": -0.24,
+          "average_score": -0.21,
           "label": "Negative",
           "post_count": 23,
-          "keywords": ["price", "actually", "like"]
+          "keywords": ["price", "work", "prices"]
         }
       }
     },
     {
       "suburb": "Nunawading",
-      "overall_sentiment_score": 0.13,
+      "overall_sentiment_score": 0.16,
       "sentiment_label": "Positive",
       "post_count": 1,
       "comment_count": 67,
       "sentiment_breakdown": {
-        "positive_pct": 40,
-        "neutral_pct": 32,
+        "positive_pct": 43,
+        "neutral_pct": 29,
         "negative_pct": 28
       },
       "top_strengths": [
         {
           "topic": "Lifestyle & Amenities",
-          "average_score": 0.15,
+          "average_score": 0.11,
           "label": "Positive",
-          "post_count": 27,
-          "keywords": ["like", "good", "train"]
+          "post_count": 23,
+          "keywords": ["train", "city", "world"]
         },
         {
           "topic": "Education & Employment",
-          "average_score": 0.51,
+          "average_score": 0.99,
           "label": "Positive",
-          "post_count": 4,
-          "keywords": ["probably", "great", "educators"]
-        },
-        {
-          "topic": "Crime & Safety",
-          "average_score": 0.51,
-          "label": "Positive",
-          "post_count": 4,
-          "keywords": ["probably", "great", "educators"]
+          "post_count": 3,
+          "keywords": ["chinese", "lovely", "educators"]
         },
         {
           "topic": "Affordability",
           "average_score": 0.5,
           "label": "Positive",
           "post_count": 11,
-          "keywords": ["cheap", "leasing", "agent"]
+          "keywords": ["price", "cheaper", "cheap"]
         }
       ],
-      "top_concerns": [],
+      "top_concerns": [
+        {
+          "topic": "Crime & Safety",
+          "average_score": -0.89,
+          "label": "Negative",
+          "post_count": 1,
+          "keywords": ["nazi", "prison", "stabbing"]
+        }
+      ],
       "topics": {
         "Lifestyle & Amenities": {
           "topic": "Lifestyle & Amenities",
-          "average_score": 0.15,
+          "average_score": 0.11,
           "label": "Positive",
-          "post_count": 27,
-          "keywords": ["like", "good", "train"]
+          "post_count": 23,
+          "keywords": ["train", "city", "world"]
         },
         "Education & Employment": {
           "topic": "Education & Employment",
-          "average_score": 0.51,
+          "average_score": 0.99,
           "label": "Positive",
-          "post_count": 4,
-          "keywords": ["probably", "great", "educators"]
+          "post_count": 3,
+          "keywords": ["chinese", "lovely", "educators"]
         },
         "Crime & Safety": {
           "topic": "Crime & Safety",
-          "average_score": 0.51,
-          "label": "Positive",
-          "post_count": 4,
-          "keywords": ["probably", "great", "educators"]
+          "average_score": -0.89,
+          "label": "Negative",
+          "post_count": 1,
+          "keywords": ["nazi", "prison", "stabbing"]
         },
         "Affordability": {
           "topic": "Affordability",
           "average_score": 0.5,
           "label": "Positive",
           "post_count": 11,
-          "keywords": ["cheap", "leasing", "agent"]
+          "keywords": ["price", "cheaper", "cheap"]
         }
       }
     },
     {
       "suburb": "Eaglemont",
-      "overall_sentiment_score": 0.03,
-      "sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.06,
+      "sentiment_label": "Positive",
       "post_count": 1,
       "comment_count": 55,
       "sentiment_breakdown": {
         "positive_pct": 36,
-        "neutral_pct": 29,
-        "negative_pct": 36
+        "neutral_pct": 32,
+        "negative_pct": 32
       },
       "top_strengths": [
         {
           "topic": "Affordability",
-          "average_score": 0.25,
+          "average_score": 0.28,
           "label": "Positive",
           "post_count": 3,
-          "keywords": ["looking", "areas", "bedroom"]
+          "keywords": ["price", "apartments", "bedroom"]
         }
       ],
       "top_concerns": [
         {
           "topic": "Lifestyle & Amenities",
-          "average_score": -0.12,
+          "average_score": -0.1,
           "label": "Negative",
           "post_count": 23,
-          "keywords": ["train", "station", "one"]
+          "keywords": ["train", "station", "line"]
         }
       ],
       "topics": {
         "Lifestyle & Amenities": {
           "topic": "Lifestyle & Amenities",
-          "average_score": -0.12,
+          "average_score": -0.1,
           "label": "Negative",
           "post_count": 23,
-          "keywords": ["train", "station", "one"]
+          "keywords": ["train", "station", "line"]
         },
         "Education & Employment": {
           "topic": "Education & Employment",
@@ -267,342 +276,351 @@
         },
         "Affordability": {
           "topic": "Affordability",
-          "average_score": 0.25,
+          "average_score": 0.28,
           "label": "Positive",
           "post_count": 3,
-          "keywords": ["looking", "areas", "bedroom"]
+          "keywords": ["price", "apartments", "bedroom"]
         }
       }
     },
     {
       "suburb": "Richmond",
-      "overall_sentiment_score": -0.01,
+      "overall_sentiment_score": 0.02,
       "sentiment_label": "Neutral",
       "post_count": 4,
       "comment_count": 118,
       "sentiment_breakdown": {
         "positive_pct": 32,
-        "neutral_pct": 34,
-        "negative_pct": 34
+        "neutral_pct": 35,
+        "negative_pct": 33
       },
-      "top_strengths": [],
+      "top_strengths": [
+        {
+          "topic": "Lifestyle & Amenities",
+          "average_score": 0.26,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["work", "station", "tracks"]
+        }
+      ],
       "top_concerns": [
         {
-          "topic": "Education & Employment",
-          "average_score": -0.19,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["would", "office", "like"]
-        },
-        {
           "topic": "Crime & Safety",
-          "average_score": -0.19,
+          "average_score": -0.26,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["would", "office", "like"]
+          "post_count": 23,
+          "keywords": ["drug", "police", "crime"]
         }
       ],
       "topics": {
         "Lifestyle & Amenities": {
           "topic": "Lifestyle & Amenities",
-          "average_score": -0.05,
-          "label": "Neutral",
-          "post_count": 69,
-          "keywords": ["work", "like", "get"]
+          "average_score": 0.26,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["work", "station", "tracks"]
         },
         "Education & Employment": {
           "topic": "Education & Employment",
-          "average_score": -0.19,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["would", "office", "like"]
+          "average_score": -0.04,
+          "label": "Neutral",
+          "post_count": 23,
+          "keywords": ["office", "school", "job"]
         },
         "Crime & Safety": {
           "topic": "Crime & Safety",
-          "average_score": -0.19,
+          "average_score": -0.26,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["would", "office", "like"]
+          "post_count": 23,
+          "keywords": ["drug", "police", "crime"]
         },
         "Affordability": {
           "topic": "Affordability",
-          "average_score": -0.03,
+          "average_score": 0.0,
           "label": "Neutral",
           "post_count": 23,
-          "keywords": ["like", "one", "get"]
+          "keywords": ["immigration", "expensive", "property"]
         }
       }
     },
     {
       "suburb": "Carlton",
-      "overall_sentiment_score": -0.06,
-      "sentiment_label": "Negative",
+      "overall_sentiment_score": -0.05,
+      "sentiment_label": "Neutral",
       "post_count": 2,
       "comment_count": 120,
       "sentiment_breakdown": {
-        "positive_pct": 36,
-        "neutral_pct": 20,
-        "negative_pct": 43
+        "positive_pct": 34,
+        "neutral_pct": 21,
+        "negative_pct": 44
       },
-      "top_strengths": [],
-      "top_concerns": [
+      "top_strengths": [
         {
-          "topic": "Education & Employment",
-          "average_score": -0.09,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["school", "people", "like"]
+          "topic": "Lifestyle & Amenities",
+          "average_score": 0.22,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["love", "shop", "restaurant"]
         },
         {
+          "topic": "Education & Employment",
+          "average_score": 0.14,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["school", "job", "students"]
+        }
+      ],
+      "top_concerns": [
+        {
           "topic": "Crime & Safety",
-          "average_score": -0.09,
+          "average_score": -0.25,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["school", "people", "like"]
+          "post_count": 23,
+          "keywords": ["police", "drug", "road"]
         },
         {
           "topic": "Affordability",
-          "average_score": -0.16,
+          "average_score": -0.17,
           "label": "Negative",
           "post_count": 23,
-          "keywords": ["property", "need", "think"]
+          "keywords": ["property", "price", "prices"]
         }
       ],
       "topics": {
         "Lifestyle & Amenities": {
           "topic": "Lifestyle & Amenities",
-          "average_score": 0.01,
-          "label": "Neutral",
-          "post_count": 69,
-          "keywords": ["people", "school", "like"]
+          "average_score": 0.22,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["love", "shop", "restaurant"]
         },
         "Education & Employment": {
           "topic": "Education & Employment",
-          "average_score": -0.09,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["school", "people", "like"]
+          "average_score": 0.14,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["school", "job", "students"]
         },
         "Crime & Safety": {
           "topic": "Crime & Safety",
-          "average_score": -0.09,
+          "average_score": -0.25,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["school", "people", "like"]
+          "post_count": 23,
+          "keywords": ["police", "drug", "road"]
         },
         "Affordability": {
           "topic": "Affordability",
-          "average_score": -0.16,
+          "average_score": -0.17,
           "label": "Negative",
           "post_count": 23,
-          "keywords": ["property", "need", "think"]
+          "keywords": ["property", "price", "prices"]
         }
       }
     },
     {
       "suburb": "Vermont",
-      "overall_sentiment_score": 0.05,
+      "overall_sentiment_score": 0.08,
       "sentiment_label": "Positive",
       "post_count": 5,
       "comment_count": 94,
       "sentiment_breakdown": {
         "positive_pct": 38,
-        "neutral_pct": 27,
-        "negative_pct": 34
+        "neutral_pct": 30,
+        "negative_pct": 31
       },
       "top_strengths": [
         {
+          "topic": "Lifestyle & Amenities",
+          "average_score": 0.25,
+          "label": "Positive",
+          "post_count": 19,
+          "keywords": ["coffee", "bus", "zone"]
+        },
+        {
+          "topic": "Education & Employment",
+          "average_score": 0.53,
+          "label": "Positive",
+          "post_count": 6,
+          "keywords": ["school"]
+        },
+        {
           "topic": "Affordability",
-          "average_score": 0.12,
+          "average_score": 0.13,
           "label": "Positive",
           "post_count": 23,
-          "keywords": ["get", "yeah", "property"]
+          "keywords": ["property", "agent"]
         }
       ],
       "top_concerns": [
         {
-          "topic": "Education & Employment",
-          "average_score": -0.11,
-          "label": "Negative",
-          "post_count": 27,
-          "keywords": ["police", "school", "crime"]
-        },
-        {
           "topic": "Crime & Safety",
-          "average_score": -0.11,
+          "average_score": -0.26,
           "label": "Negative",
-          "post_count": 27,
-          "keywords": ["police", "school", "crime"]
+          "post_count": 21,
+          "keywords": ["police", "crime", "control"]
         }
       ],
       "topics": {
         "Lifestyle & Amenities": {
           "topic": "Lifestyle & Amenities",
-          "average_score": 0.03,
-          "label": "Neutral",
-          "post_count": 46,
-          "keywords": ["school", "police", "pretty"]
+          "average_score": 0.25,
+          "label": "Positive",
+          "post_count": 19,
+          "keywords": ["coffee", "bus", "zone"]
         },
         "Education & Employment": {
           "topic": "Education & Employment",
-          "average_score": -0.11,
-          "label": "Negative",
-          "post_count": 27,
-          "keywords": ["police", "school", "crime"]
+          "average_score": 0.53,
+          "label": "Positive",
+          "post_count": 6,
+          "keywords": ["school"]
         },
         "Crime & Safety": {
           "topic": "Crime & Safety",
-          "average_score": -0.11,
+          "average_score": -0.26,
           "label": "Negative",
-          "post_count": 27,
-          "keywords": ["police", "school", "crime"]
+          "post_count": 21,
+          "keywords": ["police", "crime", "control"]
         },
         "Affordability": {
           "topic": "Affordability",
-          "average_score": 0.12,
+          "average_score": 0.13,
           "label": "Positive",
           "post_count": 23,
-          "keywords": ["get", "yeah", "property"]
+          "keywords": ["property", "agent"]
         }
       }
     },
     {
       "suburb": "Dandenong",
-      "overall_sentiment_score": 0.06,
+      "overall_sentiment_score": 0.07,
       "sentiment_label": "Positive",
       "post_count": 4,
       "comment_count": 118,
       "sentiment_breakdown": {
-        "positive_pct": 35,
-        "neutral_pct": 30,
-        "negative_pct": 35
+        "positive_pct": 38,
+        "neutral_pct": 29,
+        "negative_pct": 34
       },
       "top_strengths": [
         {
-          "topic": "Affordability",
-          "average_score": 0.26,
+          "topic": "Lifestyle & Amenities",
+          "average_score": 0.16,
           "label": "Positive",
           "post_count": 23,
-          "keywords": ["expensive", "want", "area"]
+          "keywords": ["traffic", "shop", "park"]
+        },
+        {
+          "topic": "Affordability",
+          "average_score": 0.24,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["expensive", "drive", "property"]
         }
       ],
       "top_concerns": [
         {
-          "topic": "Education & Employment",
-          "average_score": -0.11,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["job", "get", "people"]
-        },
-        {
           "topic": "Crime & Safety",
-          "average_score": -0.11,
+          "average_score": -0.16,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["job", "get", "people"]
+          "post_count": 23,
+          "keywords": ["police", "crime", "road"]
         }
       ],
       "topics": {
         "Lifestyle & Amenities": {
           "topic": "Lifestyle & Amenities",
-          "average_score": -0.03,
-          "label": "Neutral",
-          "post_count": 69,
-          "keywords": ["get", "people", "job"]
+          "average_score": 0.16,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["traffic", "shop", "park"]
         },
         "Education & Employment": {
           "topic": "Education & Employment",
-          "average_score": -0.11,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["job", "get", "people"]
+          "average_score": -0.02,
+          "label": "Neutral",
+          "post_count": 23,
+          "keywords": ["job", "school", "work"]
         },
         "Crime & Safety": {
           "topic": "Crime & Safety",
-          "average_score": -0.11,
+          "average_score": -0.16,
           "label": "Negative",
-          "post_count": 46,
-          "keywords": ["job", "get", "people"]
+          "post_count": 23,
+          "keywords": ["police", "crime", "road"]
         },
         "Affordability": {
           "topic": "Affordability",
-          "average_score": 0.26,
+          "average_score": 0.24,
           "label": "Positive",
           "post_count": 23,
-          "keywords": ["expensive", "want", "area"]
+          "keywords": ["expensive", "drive", "property"]
         }
       }
     },
     {
       "suburb": "Officer",
-      "overall_sentiment_score": -0.18,
+      "overall_sentiment_score": -0.15,
       "sentiment_label": "Negative",
       "post_count": 1,
       "comment_count": 121,
       "sentiment_breakdown": {
-        "positive_pct": 25,
-        "neutral_pct": 28,
-        "negative_pct": 47
+        "positive_pct": 29,
+        "neutral_pct": 26,
+        "negative_pct": 45
       },
       "top_strengths": [],
       "top_concerns": [
         {
           "topic": "Lifestyle & Amenities",
-          "average_score": -0.22,
-          "label": "Negative",
-          "post_count": 69,
-          "keywords": ["get", "back", "people"]
-        },
-        {
-          "topic": "Education & Employment",
-          "average_score": -0.22,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["job", "people", "get"]
-        },
-        {
-          "topic": "Crime & Safety",
-          "average_score": -0.22,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["job", "people", "get"]
-        },
-        {
-          "topic": "Affordability",
           "average_score": -0.19,
           "label": "Negative",
           "post_count": 23,
-          "keywords": ["need", "get", "prices"]
+          "keywords": ["station", "transport", "bus"]
+        },
+        {
+          "topic": "Crime & Safety",
+          "average_score": -0.33,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["police", "violent", "decisions"]
+        },
+        {
+          "topic": "Affordability",
+          "average_score": -0.16,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["prices", "house", "costs"]
         }
       ],
       "topics": {
         "Lifestyle & Amenities": {
           "topic": "Lifestyle & Amenities",
-          "average_score": -0.22,
-          "label": "Negative",
-          "post_count": 69,
-          "keywords": ["get", "back", "people"]
-        },
-        "Education & Employment": {
-          "topic": "Education & Employment",
-          "average_score": -0.22,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["job", "people", "get"]
-        },
-        "Crime & Safety": {
-          "topic": "Crime & Safety",
-          "average_score": -0.22,
-          "label": "Negative",
-          "post_count": 46,
-          "keywords": ["job", "people", "get"]
-        },
-        "Affordability": {
-          "topic": "Affordability",
           "average_score": -0.19,
           "label": "Negative",
           "post_count": 23,
-          "keywords": ["need", "get", "prices"]
+          "keywords": ["station", "transport", "bus"]
+        },
+        "Education & Employment": {
+          "topic": "Education & Employment",
+          "average_score": -0.02,
+          "label": "Neutral",
+          "post_count": 23,
+          "keywords": ["job", "degree", "pay"]
+        },
+        "Crime & Safety": {
+          "topic": "Crime & Safety",
+          "average_score": -0.33,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["police", "violent", "decisions"]
+        },
+        "Affordability": {
+          "topic": "Affordability",
+          "average_score": -0.16,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["prices", "house", "costs"]
         }
       }
     },
@@ -613,40 +631,56 @@
       "post_count": 5,
       "comment_count": 117,
       "sentiment_breakdown": {
-        "positive_pct": 33,
-        "neutral_pct": 31,
-        "negative_pct": 36
+        "positive_pct": 35,
+        "neutral_pct": 30,
+        "negative_pct": 35
       },
-      "top_strengths": [],
-      "top_concerns": [],
+      "top_strengths": [
+        {
+          "topic": "Education & Employment",
+          "average_score": 0.27,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["uni", "budget", "insects"]
+        }
+      ],
+      "top_concerns": [
+        {
+          "topic": "Crime & Safety",
+          "average_score": -0.29,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["police", "emergency", "cars"]
+        }
+      ],
       "topics": {
         "Lifestyle & Amenities": {
           "topic": "Lifestyle & Amenities",
-          "average_score": -0.03,
+          "average_score": -0.04,
           "label": "Neutral",
-          "post_count": 69,
-          "keywords": ["probably", "get", "police"]
+          "post_count": 23,
+          "keywords": ["station", "peak", "parking"]
         },
         "Education & Employment": {
           "topic": "Education & Employment",
-          "average_score": -0.02,
-          "label": "Neutral",
-          "post_count": 46,
-          "keywords": ["probably", "put", "police"]
+          "average_score": 0.27,
+          "label": "Positive",
+          "post_count": 23,
+          "keywords": ["uni", "budget", "insects"]
         },
         "Crime & Safety": {
           "topic": "Crime & Safety",
-          "average_score": -0.02,
-          "label": "Neutral",
-          "post_count": 46,
-          "keywords": ["probably", "put", "police"]
+          "average_score": -0.29,
+          "label": "Negative",
+          "post_count": 23,
+          "keywords": ["police", "emergency", "cars"]
         },
         "Affordability": {
           "topic": "Affordability",
-          "average_score": 0.04,
+          "average_score": 0.03,
           "label": "Neutral",
           "post_count": 23,
-          "keywords": ["would", "going", "like"]
+          "keywords": ["budget", "prices", "range"]
         }
       }
     }
