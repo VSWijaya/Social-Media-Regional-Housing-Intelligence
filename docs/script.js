@@ -287,7 +287,28 @@ document.addEventListener("DOMContentLoaded", () => {
         throw new Error("suburb_summary is missing from the JSON file.");
       }
 
-      suburbData = data.suburb_summary;
+      // RTM 03: overall score = average of the topic scores
+      // (only topics with at least one post are included)
+      suburbData = data.suburb_summary.map((suburb) => {
+        const topicScores = Object.values(suburb.topics || {})
+          .filter((topic) => Number(topic.post_count) > 0)
+          .map((topic) => Number(topic.average_score));
+
+        if (topicScores.length === 0) {
+          return suburb;
+        }
+
+        const average =
+          topicScores.reduce((sum, score) => sum + score, 0) / topicScores.length;
+        const rounded = Math.round(average * 100) / 100;
+
+        return {
+          ...suburb,
+          overall_sentiment_score: rounded,
+          sentiment_label:
+            rounded > 0.05 ? "Positive" : rounded < -0.05 ? "Negative" : "Neutral"
+        };
+      });
 
       const currentPage = document.body.dataset.page;
 
