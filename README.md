@@ -56,3 +56,4 @@ This will:
 - Reddit API has rate limits (~30 requests/minute). The script includes sleep delays.
 - If data is insufficient for some suburbs, consider expanding to related subreddits (r/MelbourneSuburbs, r/AusFinance) or adjusting search queries.
 - The suburb detection logic follows your proposal: comments mentioning non-target Melbourne suburbs are excluded to prevent misattribution.
+
