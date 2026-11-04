@@ -4,7 +4,7 @@
 
 Social Media Regional Housing Intelligence is a web dashboard that combines Reddit sentiment with Australian Bureau of Statistics (ABS) demographic data for ten Melbourne suburbs. It helps users compare how suburbs are discussed online alongside official demographic information.
 
-The project brings together data collection, text preprocessing, topic categorisation, sentiment modelling and dashboard development. This README describes the completed project and retains the original collection instructions for reference.
+The project brings together data collection, text preprocessing, topic categorisation, sentiment modelling and dashboard development. This repository contains the dashboard files, data preparation code, datasets and sentiment modelling work.
 
 ## What the dashboard provides
 
@@ -32,9 +32,7 @@ The project focuses on these ten Melbourne suburbs:
 
 ### Reddit discussions
 
-Posts and comments relating to the selected suburbs provide the text used for sentiment analysis. The original collection pipeline targeted `r/melbourne` and included suburb detection, cleaning, deduplication and topic categorisation.
-
-The project initially planned to use the Reddit API. API access constraints led to an alternative collection approach during implementation. The API instructions below therefore describe the original collection scripts, rather than the final collection method.
+Posts and comments relating to the selected suburbs provide the text used for sentiment analysis. Collection and preprocessing code is located in `scraper_and_preprocessing/`. The repository also includes the master datasets, cleaned data and a labelled training subset.
 
 ### ABS demographics
 
@@ -57,49 +55,47 @@ The modelling work included preparing labelled text, separating training and tes
 
 Because automated labels were used during data preparation, evaluation results must be interpreted with care: agreement with an automated label does not necessarily establish that a prediction correctly captures the author's meaning. Sarcasm, mixed opinions and context-dependent language remained challenges.
 
-## Original collection scripts
+## Repository contents
 
-The uploaded Phase 1 README documents the following files. This list covers the original collection component, rather than the complete dashboard and modelling codebase.
-
-| File | Purpose |
+| File or folder | Purpose |
 | --- | --- |
-| `config.py` | Collection settings and suburb configuration |
-| `reddit_collector.py` | Reddit API collection logic |
-| `data_preprocessor.py` | Text cleaning, suburb detection and topic categorisation |
-| `run_collection.py` | Collection and preprocessing entry point |
-| `requirements.txt` | Python dependencies for the collection component |
-| `.env.example` | Template for API credentials |
+| `docs/` | Dashboard front-end files |
+| `scraper_and_preprocessing/` | Data collection and preprocessing code |
+| `ABS_2021_Melbourne_Suburb_Data.xlsx` | ABS 2021 demographic data for the selected suburbs |
+| `FIT3164Model.ipynb` | Sentiment modelling notebook |
+| `ModelWithTopics.py` | Python modelling code incorporating topics |
+| `label_sentiment.py` | Automated sentiment labelling function |
+| `LABELING_NOTES.txt` | Notes accompanying the labelled data |
+| `clayton_sentiment_dataset.csv` | Clayton sample dataset used for initial model training |
+| `melbourne_suburb_master_dataset_part1.csv`–`melbourne_suburb_master_dataset_part4.csv` | Master dataset split across four CSV files |
+| `melbourne_suburb_cleaned.zip` | Cleaned data with empty or unusable rows removed |
+| `melbourne_suburb_training_subset.csv` | Labelled training subset |
+| `suburb_sentiment_summary.json` | Sentiment summary output for the dashboard |
+| `mock_suburb_data.json` | Mock data used during front-end development |
+| `requirements.txt` | Python dependency list |
+| `S1_DS_02_Project proposal report.pdf` | Original project proposal |
 
-### Running the original API pipeline
+## Working with the project
 
-These steps require the original scripts and approved Reddit API access. They do not launch the completed dashboard or run BERT training.
+### Python dependencies
 
-1. Install the collection dependencies from the directory containing `requirements.txt`:
+From the repository root, install the dependencies listed in `requirements.txt`:
 
-   ```bash
-   python -m pip install -r requirements.txt
-   ```
+```bash
+python -m pip install -r requirements.txt
+```
 
-2. Configure an application through [Reddit's application settings](https://www.reddit.com/prefs/apps), subject to the access requirements for your account.
-3. Copy `.env.example` to `.env` and populate the credential fields expected by the scripts. Keep credentials out of version control.
-4. Review the suburb list and collection settings in `config.py`.
-5. Run the original collection entry point:
+### Data preparation and modelling
 
-   ```bash
-   python run_collection.py
-   ```
+- Refer to `scraper_and_preprocessing/` for the collection and preprocessing code.
+- Use the supplied master datasets and cleaned archive when working with the collected data.
+- Read `LABELING_NOTES.txt` alongside `melbourne_suburb_training_subset.csv` to understand the labelled data.
+- Open `FIT3164Model.ipynb` in a Jupyter-compatible environment to inspect the modelling workflow. Check its input paths against the datasets available in your checkout before running cells.
+- Refer to `ModelWithTopics.py` for the topic-related modelling code and `label_sentiment.py` for the sentiment labelling function.
 
-### Collection outputs
+### Dashboard files
 
-| Path | Description |
-| --- | --- |
-| `data/raw/all_posts_raw.csv` | Raw collected posts |
-| `data/raw/all_comments_raw.csv` | Raw collected comments |
-| `data/processed/posts_processed.csv` | Cleaned posts with suburb and topic labels |
-| `data/processed/comments_processed.csv` | Cleaned comments with suburb and topic labels |
-| `data/processed/combined_for_analysis.csv` | Combined text dataset for subsequent sentiment analysis |
-
-Dashboard startup instructions and BERT training commands depend on their respective source files and are not specified by the original collection README.
+The dashboard front-end is located in `docs/`. The repository includes `suburb_sentiment_summary.json` for sentiment summaries and `ABS_2021_Melbourne_Suburb_Data.xlsx` for demographic data. `mock_suburb_data.json` is a development fixture and should not be treated as an analysis result.
 
 ## Limitations
 
