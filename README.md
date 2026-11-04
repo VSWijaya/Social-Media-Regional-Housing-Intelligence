@@ -117,3 +117,10 @@ The dashboard front-end is located in `docs/`. The repository includes `suburb_s
 ## Academic context
 
 Developed by Team DS02 for Monash University's FIT3164 Data Science Project Part 2. The completed project demonstrates a workflow from unstructured social media text to an interactive dashboard combining sentiment analysis with official demographic data.
+
+## AI Acknowledgement
+Priscilla:
+ChatGPT (OpenAI) was used to help write the code for the Reddit data scraper and the data preprocessing pipeline.
+ChatGPT (OpenAI) and Claude (Anthropic) were used to help write the frontend code).
+Claude (Anthropic) was used to help write the code that improves the keyword extraction method.
+I verified all AI-generated code by reviewing it, running it, and checking that the outputs were correct, and I made changes where needed.
