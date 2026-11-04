@@ -63,15 +63,11 @@ Because automated labels were used during data preparation, evaluation results m
 | `scraper_and_preprocessing/` | Data collection and preprocessing code |
 | `ABS_2021_Melbourne_Suburb_Data.xlsx` | ABS 2021 demographic data for the selected suburbs |
 | `FIT3164Model.ipynb` | Sentiment modelling notebook |
-| `ModelWithTopics.py` | Python modelling code incorporating topics |
 | `label_sentiment.py` | Automated sentiment labelling function |
 | `LABELING_NOTES.txt` | Notes accompanying the labelled data |
-| `clayton_sentiment_dataset.csv` | Clayton sample dataset used for initial model training |
 | `melbourne_suburb_master_dataset_part1.csv`–`melbourne_suburb_master_dataset_part4.csv` | Master dataset split across four CSV files |
 | `melbourne_suburb_cleaned.zip` | Cleaned data with empty or unusable rows removed |
 | `melbourne_suburb_training_subset.csv` | Labelled training subset |
-| `suburb_sentiment_summary.json` | Sentiment summary output for the dashboard |
-| `mock_suburb_data.json` | Mock data used during front-end development |
 | `requirements.txt` | Python dependency list |
 | `S1_DS_02_Project proposal report.pdf` | Original project proposal |
 
