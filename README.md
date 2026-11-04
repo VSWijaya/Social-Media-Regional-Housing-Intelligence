@@ -124,3 +124,9 @@ ChatGPT (OpenAI) was used to help write the code for the Reddit data scraper and
 ChatGPT (OpenAI) and Claude (Anthropic) were used to help write the frontend code).
 Claude (Anthropic) was used to help write the code that improves the keyword extraction method.
 I verified all AI-generated code by reviewing it, running it, and checking that the outputs were correct, and I made changes where needed.
+
+Vincent: 
+ChatGPT (OpenAI) was used to help write code for sentiment labelling, preparing the training and testing datasets, 
+and comparing VADER and BERT. It was also used to help identify irrelevant stop words, improve the wording and structure of my 
+report sections, and revise the project README. I reviewed and edited the generated text and checked the code and outputs, 
+making changes where needed.
